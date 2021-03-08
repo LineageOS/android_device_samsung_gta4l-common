@@ -117,6 +117,9 @@ ro.crypto.allow_encrypt_override=true
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Wifi
 wifi.aware.interface=wifi-aware0
 
