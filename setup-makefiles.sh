@@ -20,6 +20,16 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+function vendor_imports() {
+    cat <<EOF >>"$1"
+		"device/samsung/gta4l-common",
+		"hardware/qcom-caf/sm8250",
+		"hardware/qcom-caf/wlan",
+		"vendor/qcom/opensource/dataservices",
+		"vendor/qcom/opensource/display",
+EOF
+}
+
 function lib_to_package_fixup_vendor_variants() {
     if [ "$2" != "vendor" ]; then
         return 1
