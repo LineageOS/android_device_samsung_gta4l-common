@@ -1,0 +1,9 @@
+# Audio
+ro.vendor.qti.va_aosp.support=1
+
+# Netflix
+ro.netflix.bsp_rev=Q6115-31409-1
+ro.netflix.channel=2eb27aa0-3926-11e9-8c73-9b498cd1a550
+ro.netflix.signup=1
+
+persist.vendor.dpm.feature=11

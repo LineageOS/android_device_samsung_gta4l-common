@@ -1,0 +1,4 @@
+allow vendor_hal_gnss_qti vendor_sysfs_battery_supply:dir search;
+
+get_prop(vendor_hal_gnss_qti, csc_prop)
+get_prop(vendor_hal_gnss_qti, gps_prop)

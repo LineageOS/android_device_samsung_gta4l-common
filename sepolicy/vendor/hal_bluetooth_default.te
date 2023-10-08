@@ -1,0 +1,4 @@
+allow hal_bluetooth_default efs_file:dir search;
+
+allow hal_bluetooth_default bluetooth_efs_file:dir r_dir_perms;
+allow hal_bluetooth_default bluetooth_efs_file:file r_file_perms;

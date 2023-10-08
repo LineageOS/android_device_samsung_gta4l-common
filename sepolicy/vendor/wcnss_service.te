@@ -1,0 +1,4 @@
+allow vendor_wcnss_service efs_file:dir search;
+
+allow vendor_wcnss_service wifi_efs_file:dir search;
+allow vendor_wcnss_service wifi_efs_file:file r_file_perms;

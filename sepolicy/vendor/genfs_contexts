@@ -1,0 +1,21 @@
+genfscon proc /last_kmsg u:object_r:proc_last_kmsg:s0
+
+genfscon sysfs /devices/platform/soc/4a88000.i2c/i2c-1/1-0063/power_supply/cw2017-bat/type                                                    u:object_r:sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pmi632@2:qcom,qpnp-smb5/power_supply/otg/online u:object_r:sysfs_usb_supply:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pmi632@2:qcom,qpnp-smb5/power_supply/otg/type   u:object_r:sysfs_usb_supply:s0
+
+genfscon sysfs /devices/platform/soc/4a80000.spi/spi_master/spi0/spi0.0/wakeup/wakeup38                    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a80000.spi/spi_master/spi0/spi0.0/wakeup/wakeup38/event_count        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a80000.spi/spi_master/spi0/spi0.0/wakeup/wakeup38/max_time_ms        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a88000.i2c/i2c-1/1-0063/power_supply/cw2017-bat/wakeup27             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a88000.i2c/i2c-1/1-0063/power_supply/cw2017-bat/wakeup27/event_count u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a88000.i2c/i2c-1/1-0063/wakeup/wakeup28                              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a88000.i2c/i2c-1/1-0063/wakeup/wakeup28/event_count                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/4a88000.i2c/i2c-1/1-0063/wakeup/wakeup28/max_time_ms                  u:object_r:sysfs_wakeup:s0
+
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pmi632@2:qcom,qpnp-smb5/power_supply/otg/wakeup33 u:object_r:sysfs_wakeup:s0
+
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pmi632@2:qcom,qpnp-smb5/extcon/extcon1/cable.0/name u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pmi632@2:qcom,qpnp-smb5/extcon/extcon1/cable.1/name u:object_r:sysfs_extcon:s0
+
+genfscon sysfs /devices/platform/soc/4784000.sdhci/mmc_host/mmc1/mmc1:ae47/block/mmcblk1/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0

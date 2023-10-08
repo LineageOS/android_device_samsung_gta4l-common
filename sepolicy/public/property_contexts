@@ -1,0 +1,6 @@
+persist.sys.sec_feature   u:object_r:exported_system_prop:s0
+persist.sys.sec_feature2  u:object_r:exported_system_prop:s0
+persist.sys.sec_pcid      u:object_r:exported_system_prop:s0
+persist.sys.usb.config    u:object_r:exported_system_prop:s0
+service.camera.client     u:object_r:exported_system_prop:s0
+persist.sys.omc_support   u:object_r:exported_system_prop:s0

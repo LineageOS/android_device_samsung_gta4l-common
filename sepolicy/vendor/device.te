@@ -1,0 +1,8 @@
+type debug_block_device, dev_type;
+type efsblk_device, dev_type;
+type paramblk_device, dev_type;
+type rawdump_block_device, dev_type;
+type sec_efsblk_device, dev_type;
+type steady_block_device, dev_type;
+
+type guardianm_device, dev_type;

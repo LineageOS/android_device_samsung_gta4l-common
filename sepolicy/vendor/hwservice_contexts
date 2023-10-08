@@ -1,0 +1,4 @@
+vendor.samsung.hardware.gnss::ISehGnss                        u:object_r:hal_gnss_hwservice:s0
+vendor.samsung.hardware.health::ISehHealth                    u:object_r:hal_health_hwservice:s0
+vendor.samsung.hardware.security.vaultkeeper::ISehVaultKeeper u:object_r:hal_vaultkeeper_server_hwservice:s0
+vendor.samsung.hardware.thermal::ISehThermal                  u:object_r:hal_thermal_hwservice:s0

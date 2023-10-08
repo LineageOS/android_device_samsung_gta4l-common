@@ -1,0 +1,15 @@
+mdc.                                    u:object_r:csc_prop:s0
+persist.vendor.morpho.eis.quit.recovery u:object_r:cam_prop:s0
+persist.vendor.sec.fastchg_enabled      u:object_r:sec_fastcharge_prop:s0
+ro.csc.                                 u:object_r:csc_prop:s0
+ro.factory.factory_binary               u:object_r:vendor_factory_prop:s0
+ro.multisim.                            u:object_r:vendor_radio_prop:s0
+ro.vendor.multisim.                     u:object_r:vendor_radio_prop:s0
+ro.vendor.security.vaultkeeper.id       u:object_r:vendor_vaultkeeperd_prop:s0
+vendor.bluetooth_fw_ver                 u:object_r:vendor_bluetooth_prop:s0
+vendor.security.vaultkeeper.native      u:object_r:vendor_vaultkeeperd_prop:s0
+vendor.sys.qseecomd.                    u:object_r:vendor_qseecomd_prop:s0
+vendor.wt.rpmb_status                   u:object_r:vendor_wt_rpmb_status_prop:s0
+persist.camera.cam.list                 u:object_r:cam_prop:s0
+persist.sys.gps.dds.subId               u:object_r:gps_prop:s0
+persist.vendor.morpho.eis.enable        u:object_r:cam_prop:s0

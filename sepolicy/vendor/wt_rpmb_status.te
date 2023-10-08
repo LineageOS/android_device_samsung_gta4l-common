@@ -1,0 +1,9 @@
+type wt_rpmb_status, domain;
+type wt_rpmb_status_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(wt_rpmb_status)
+
+allow wt_rpmb_status tee_device:chr_file rw_file_perms;
+allow wt_rpmb_status ion_device:chr_file rw_file_perms;
+
+set_prop(wt_rpmb_status, vendor_wt_rpmb_status_prop)

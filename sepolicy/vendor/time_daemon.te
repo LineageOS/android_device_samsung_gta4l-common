@@ -1,0 +1,6 @@
+allow vendor_time_daemon tee:dir r_dir_perms;
+allow vendor_time_daemon tee:file r_file_perms;
+allow vendor_time_daemon rild:dir search;
+allow vendor_time_daemon rild:file read;
+
+r_dir_file(vendor_time_daemon, vendor_timeservice_app)

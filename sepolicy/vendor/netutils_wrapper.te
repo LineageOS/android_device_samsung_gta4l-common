@@ -1,0 +1,6 @@
+allow netutils_wrapper rild:fifo_file { read write };
+allow netutils_wrapper rild:udp_socket { read write };
+
+allow netutils_wrapper tun_device:chr_file { read write };
+allow netutils_wrapper proc_net:file rw_file_perms;
+allow netutils_wrapper mps_efs_file:file { read write };

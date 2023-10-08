@@ -1,0 +1,37 @@
+/dev/block/platform/soc/4744000\.sdhci/by-name/debug         u:object_r:debug_block_device:s0
+/dev/block/platform/soc/4744000\.sdhci/by-name/efs           u:object_r:efsblk_device:s0
+/dev/block/platform/soc/4744000\.sdhci/by-name/param         u:object_r:paramblk_device:s0
+/dev/block/platform/soc/4744000\.sdhci/by-name/persistent    u:object_r:frp_block_device:s0
+/dev/block/platform/soc/4744000\.sdhci/by-name/rawdump       u:object_r:rawdump_block_device:s0
+/dev/block/platform/soc/4744000\.sdhci/by-name/sec_efs       u:object_r:sec_efsblk_device:s0
+/dev/block/platform/soc/4744000\.sdhci/by-name/steady        u:object_r:steady_block_device:s0
+
+/bt_firmware(/.*)?  u:object_r:bt_firmware_file:s0
+/dsp(/.*)?          u:object_r:firmware_file:s0
+/firmware(/.*)?     u:object_r:firmware_file:s0
+/misc(/.*)?         u:object_r:system_file:s0
+/omr(/.*)?          u:object_r:system_file:s0
+
+/(vendor|system/vendor)/bin/hw/android\.hardware\.health@2\.1-service-samsung        u:object_r:hal_health_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@4\.0-service\.samsung    u:object_r:hal_keymaster_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.fastcharge@1\.0-service\.samsung     u:object_r:hal_lineage_fastcharge_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.thermal@1\.0-service       u:object_r:hal_thermal_default_exec:s0
+/(vendor|system/vendor)/bin/secril_config_svc                                        u:object_r:secril_config_svc_exec:s0
+/(vendor|system/vendor)/bin/vaultkeeperd                                             u:object_r:vaultkeeperd_exec:s0
+/(vendor|system/vendor)/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service u:object_r:hal_vaultkeeper_default_exec:s0
+/(vendor|system/vendor)/bin/wt_rpmb_status                                           u:object_r:wt_rpmb_status_exec:s0
+
+/dev/grdm                        u:object_r:guardianm_device:s0
+/dev/socket/vaultkeeper(/.*)?    u:object_r:vaultkeeper_socket:s0
+
+/efs/FactoryApp(/.*)?            u:object_r:app_efs_file:s0
+/efs/bluetooth(/.*)?             u:object_r:bluetooth_efs_file:s0
+
+/mnt/vendor/efs(/.*)?            u:object_r:efs_file:s0
+/mnt/vendor/efs/DAK(/.*)?        u:object_r:prov_efs_file:s0
+/mnt/vendor/efs/FactoryApp(/.*)? u:object_r:app_efs_file:s0
+/mnt/vendor/efs/wifi(/.*)?       u:object_r:wifi_efs_file:s0
+/mnt/vendor/efs/mps_code.dat     u:object_r:mps_efs_file:s0
+
+/sys/devices/virtual/sec/tsp(/.*)?    u:object_r:sysfs_tsp:s0
+/sys/devices/virtual/sec/switch(/.*)? u:object_r:sysfs_sec_switch:s0

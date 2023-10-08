@@ -1,0 +1,2 @@
+allow hal_thermal_default vendor_sysfs_battery_supply:dir search;
+allow hal_thermal_default vendor_sysfs_battery_supply:file r_file_perms;

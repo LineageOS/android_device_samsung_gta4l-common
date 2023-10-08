@@ -1,0 +1,4 @@
+allow hal_health_default efs_file:dir search;
+
+allow hal_health_default app_efs_file:dir rw_dir_perms;
+allow hal_health_default app_efs_file:file create_file_perms;
