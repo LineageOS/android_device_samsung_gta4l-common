@@ -112,6 +112,11 @@ Note that doze dreams are not subject to the same start conditions as ordinary d
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up.
+         The default is false. -->
+    <bool name="config_lidControlsSleep">true</bool>
+
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
 

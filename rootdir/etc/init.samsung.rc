@@ -30,6 +30,18 @@
 
 import /vendor/etc/init/hw/init.samsung.bsp.rc
 
+service vendor.folio_daemon /system/bin/folio_daemon
+    class late_start
+    user system
+    group system uhid
+    disabled
+
+on property:init.svc.zygote=running
+    start vendor.folio_daemon
+
+on property:init.svc.zygote=stopped
+    stop vendor.folio_daemon
+
 on init
 
     symlink /dev/block/bootdevice/by-name/steady  /dev/block/steady
