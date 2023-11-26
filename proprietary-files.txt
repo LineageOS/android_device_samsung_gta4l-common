@@ -365,6 +365,7 @@ vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libwingmetamanager.so
+vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|5dfcd423c021b3d9385f47f159e12d6ef6558c28
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
@@ -849,6 +850,7 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 vendor/lib/libqrtr.so
 vendor/lib/libqsocket.so
+vendor/lib64/libconfigdb.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libdsi_netctrl.so
@@ -856,6 +858,7 @@ vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/libminksocket.so
+vendor/lib64/libnetmgr.so
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdi.so
@@ -1146,6 +1149,7 @@ vendor/etc/init/vaultkeeper_common.rc
 vendor/etc/vintf/manifest/vaultkeeper_manifest.xml
 vendor/lib64/libdsms_vendor.so
 vendor/lib64/libstork_shared.so
+vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libvkservice.so
 vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.vaultkeeper@2.0.so
