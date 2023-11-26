@@ -284,10 +284,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
-# Rotation
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.bootanim.set_orientation_4630946488205922177=ORIENTATION_90
-
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
