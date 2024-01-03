@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01203a78_9001f7e3",
+        "filename": "gta4l.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-01-03T21:16:27Z",
+      "side": 1,
+      "message": "You only need to explicitly build 2.1",
+      "revId": "e1a907b9d7a42b3dc508b72fc836e3cb8e6a95a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
