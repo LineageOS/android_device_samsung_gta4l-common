@@ -10,8 +10,8 @@ vendor/lib64/libadsprpc.so
 
 # ANT+
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
-vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 
 # Audio
 vendor/etc/dolby/dax-default.xml
@@ -40,62 +40,62 @@ vendor/lib64/libqtigef.so
 vendor/lib64/libsecaudiocoreutils.so
 
 # Audio - ACDB
-vendor/etc/acdbdata/QRD_koo/QRD_koo_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD_koo/QRD_koo_General_cal.acdb
-vendor/etc/acdbdata/QRD_koo/QRD_koo_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD_koo/QRD_koo_Global_cal.acdb
-vendor/etc/acdbdata/QRD_koo/QRD_koo_Headset_cal.acdb
-vendor/etc/acdbdata/QRD_koo/QRD_koo_Handset_cal.acdb
-vendor/etc/acdbdata/QRD_koo/QRD_koo_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD_koo/QRD_koo_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD_mea/QRD_mea_Headset_cal.acdb
-vendor/etc/acdbdata/QRD_mea/QRD_mea_Handset_cal.acdb
-vendor/etc/acdbdata/QRD_mea/QRD_mea_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD_mea/QRD_mea_General_cal.acdb
-vendor/etc/acdbdata/QRD_mea/QRD_mea_Global_cal.acdb
-vendor/etc/acdbdata/QRD_mea/QRD_mea_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD_mea/QRD_mea_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD_mea/QRD_mea_Hdmi_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb
+vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb
+vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb
+vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD_sea/QRD_sea_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD_sea/QRD_sea_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD_sea/QRD_sea_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD_sea/QRD_sea_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD_sea/QRD_sea_General_cal.acdb
-vendor/etc/acdbdata/QRD_sea/QRD_sea_Handset_cal.acdb
-vendor/etc/acdbdata/QRD_sea/QRD_sea_Global_cal.acdb
-vendor/etc/acdbdata/QRD_sea/QRD_sea_Headset_cal.acdb
-vendor/etc/acdbdata/QRD_chc/QRD_chc_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD_chc/QRD_chc_Handset_cal.acdb
-vendor/etc/acdbdata/QRD_chc/QRD_chc_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD_chc/QRD_chc_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD_chc/QRD_chc_Global_cal.acdb
-vendor/etc/acdbdata/QRD_chc/QRD_chc_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD_chc/QRD_chc_General_cal.acdb
-vendor/etc/acdbdata/QRD_chc/QRD_chc_Headset_cal.acdb
-vendor/etc/acdbdata/QRD_swa/QRD_swa_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD_swa/QRD_swa_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD_swa/QRD_swa_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD_swa/QRD_swa_Handset_cal.acdb
-vendor/etc/acdbdata/QRD_swa/QRD_swa_General_cal.acdb
-vendor/etc/acdbdata/QRD_swa/QRD_swa_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD_swa/QRD_swa_Headset_cal.acdb
-vendor/etc/acdbdata/QRD_swa/QRD_swa_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD_chc/QRD_chc_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD_chc/QRD_chc_General_cal.acdb
+vendor/etc/acdbdata/QRD_chc/QRD_chc_Global_cal.acdb
+vendor/etc/acdbdata/QRD_chc/QRD_chc_Handset_cal.acdb
+vendor/etc/acdbdata/QRD_chc/QRD_chc_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD_chc/QRD_chc_Headset_cal.acdb
+vendor/etc/acdbdata/QRD_chc/QRD_chc_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD_chc/QRD_chc_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD_koo/QRD_koo_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD_koo/QRD_koo_General_cal.acdb
+vendor/etc/acdbdata/QRD_koo/QRD_koo_Global_cal.acdb
+vendor/etc/acdbdata/QRD_koo/QRD_koo_Handset_cal.acdb
+vendor/etc/acdbdata/QRD_koo/QRD_koo_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD_koo/QRD_koo_Headset_cal.acdb
+vendor/etc/acdbdata/QRD_koo/QRD_koo_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD_koo/QRD_koo_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD_mea/QRD_mea_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD_mea/QRD_mea_General_cal.acdb
+vendor/etc/acdbdata/QRD_mea/QRD_mea_Global_cal.acdb
+vendor/etc/acdbdata/QRD_mea/QRD_mea_Handset_cal.acdb
+vendor/etc/acdbdata/QRD_mea/QRD_mea_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD_mea/QRD_mea_Headset_cal.acdb
+vendor/etc/acdbdata/QRD_mea/QRD_mea_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD_mea/QRD_mea_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD_sea/QRD_sea_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD_sea/QRD_sea_General_cal.acdb
+vendor/etc/acdbdata/QRD_sea/QRD_sea_Global_cal.acdb
+vendor/etc/acdbdata/QRD_sea/QRD_sea_Handset_cal.acdb
+vendor/etc/acdbdata/QRD_sea/QRD_sea_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD_sea/QRD_sea_Headset_cal.acdb
+vendor/etc/acdbdata/QRD_sea/QRD_sea_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD_sea/QRD_sea_workspaceFile.qwsp
+vendor/etc/acdbdata/QRD_swa/QRD_swa_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD_swa/QRD_swa_General_cal.acdb
+vendor/etc/acdbdata/QRD_swa/QRD_swa_Global_cal.acdb
+vendor/etc/acdbdata/QRD_swa/QRD_swa_Handset_cal.acdb
+vendor/etc/acdbdata/QRD_swa/QRD_swa_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD_swa/QRD_swa_Headset_cal.acdb
+vendor/etc/acdbdata/QRD_swa/QRD_swa_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD_swa/QRD_swa_workspaceFile.qwsp
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
@@ -386,8 +386,8 @@ vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
 # Charging
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/bin/hvdcp_opti
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # Configstore
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
@@ -396,9 +396,9 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # Device Health
--vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
+-vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
 vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
@@ -452,16 +452,14 @@ vendor/lib64/vendor.display.postproc@1.0.so
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libcpion.so
 vendor/lib/libhdcpsrm.so
 vendor/lib/liboemcrypto.so
-vendor/lib/libwvhidl.so
 vendor/lib/libtrustedapploader.so
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libwvdrmengine.so
 
 # DSP
--vendor/lib/libfastcvopt.so
--vendor/lib64/libfastcvopt.so
 vendor/bin/cdsprpcd
 vendor/bin/dspservice
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -471,6 +469,7 @@ vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastcvdsp_stub.so
+-vendor/lib/libfastcvopt.so
 vendor/lib/libmdsprpc.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsysmon_cdsp_skel.so
@@ -492,6 +491,7 @@ vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastcvdsp_stub.so
+-vendor/lib64/libfastcvopt.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
@@ -561,14 +561,14 @@ vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
-vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/etc/flp.conf
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gps.conf
+vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 vendor/lib/libbatching.so
@@ -593,8 +593,8 @@ vendor/lib/liblowi_client.so
 vendor/lib/libpdmapper.so
 vendor/lib/libqcc_file_agent.so
 vendor/lib/libsemnativecarrierfeature.so
-vendor/lib/libxtadapter.so
 vendor/lib/libsynergy_loc_api.so
+vendor/lib/libxtadapter.so
 vendor/lib/vendor.qti.gnss@1.0.so
 vendor/lib/vendor.qti.gnss@1.1.so
 vendor/lib/vendor.qti.gnss@1.2.so
@@ -630,6 +630,7 @@ vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libqdma_file_agent.so
 vendor/lib64/libsemnativecarrierfeature.so
 vendor/lib64/libsynergy_loc_api.so
+vendor/lib64/libxtadapter.so
 vendor/lib64/vendor.qti.gnss@1.0.so
 vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
@@ -639,7 +640,6 @@ vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
-vendor/lib64/libxtadapter.so
 
 # Graphics (Adreno)
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -701,12 +701,12 @@ vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
 
 # IRQ Balance
-vendor/etc/msm_irqbalance.conf
 vendor/bin/msm_irqbalance
+vendor/etc/msm_irqbalance.conf
 
 # Keymaster
-vendor/lib64/libkeymaster_helper.so
 vendor/lib64/libgrdm.so
+vendor/lib64/libkeymaster_helper.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
 -vendor/lib64/libskeymaster4device.so
@@ -1078,15 +1078,15 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 
 # Thermal
--vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine.conf
+-vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
+-vendor/lib/libthermalclient.so
 vendor/lib64/libhypervintf.so
+-vendor/lib64/libthermalclient.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 
