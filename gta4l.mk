@@ -102,7 +102,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.common@2.0.vendor \
     android.frameworks.cameraservice.device@2.0.vendor \
-    android.frameworks.cameraservice.service@2.1.vendor
+    android.frameworks.cameraservice.service@2.1.vendor \
+    android.hardware.camera.provider@2.4-impl.gta4l \
+    android.hardware.camera.provider@2.4-service_64.gta4l
 
 # Charger
 PRODUCT_PACKAGES += \

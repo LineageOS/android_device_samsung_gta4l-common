@@ -147,17 +147,7 @@ vendor/firmware/apnv11.bin
 # Camera
 vendor/bin/chifeature2test
 vendor/bin/chiofflinepostproctest
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
-vendor/lib/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-impl.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libbitmlengine.so
@@ -178,13 +168,6 @@ vendor/lib/libofflinelog.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libwingmetamanager.so
 vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.n19_gc8034_back_cxt.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
@@ -335,7 +318,6 @@ vendor/lib64/com.qti.feature2.rt.so
 vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libOpenCv.camera.samsung.so

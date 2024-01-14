@@ -22,6 +22,7 @@
 /(vendor|system/vendor)/bin/vaultkeeperd                                             u:object_r:vaultkeeperd_exec:s0
 /(vendor|system/vendor)/bin/vendor.samsung.hardware.security.vaultkeeper@2.0-service u:object_r:hal_vaultkeeper_default_exec:s0
 /(vendor|system/vendor)/bin/wt_rpmb_status                                           u:object_r:wt_rpmb_status_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.camera\.provider@2\.4-service_64\.gta4l u:object_r:hal_camera_default_exec:s0
 
 /dev/grdm                        u:object_r:guardianm_device:s0
 /dev/socket/vaultkeeper(/.*)?    u:object_r:vaultkeeper_socket:s0
