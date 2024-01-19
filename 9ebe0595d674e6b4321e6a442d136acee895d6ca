@@ -16,6 +16,24 @@
       "message": "Does this include already the needed modifications? If so, it sucks. You should first import camera device/provider and adapt it in a follow up commit for traceablility.",
       "revId": "9ebe0595d674e6b4321e6a442d136acee895d6ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9848aa4_ae4a4350",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-19T10:03:56Z",
+      "side": 1,
+      "message": "I had to cherry-pick this for gtowifi: the patch does include the needed changes.",
+      "parentUuid": "15f8e169_f27af1a0",
+      "revId": "9ebe0595d674e6b4321e6a442d136acee895d6ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
