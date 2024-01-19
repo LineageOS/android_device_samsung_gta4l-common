@@ -69,6 +69,24 @@
       "parentUuid": "d0744a6a_3a4c8aa2",
       "revId": "9ebe0595d674e6b4321e6a442d136acee895d6ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30cbb3ee_b266b2af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-01-19T11:07:31Z",
+      "side": 1,
+      "message": "That\u0027s fine, but pick https://review.lineageos.org/370747 before https://review.lineageos.org/380212",
+      "parentUuid": "7f1ba60f_8b65d9f6",
+      "revId": "9ebe0595d674e6b4321e6a442d136acee895d6ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
