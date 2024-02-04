@@ -929,6 +929,7 @@ typedef struct camera_module {
      *   static metadata (camera_info.static_camera_characteristics).
      */
     int (*get_camera_info)(int camera_id, struct camera_info *info);
+    void* reserved_sec[1];
 
     /**
      * set_callbacks:
