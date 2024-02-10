@@ -55,6 +55,11 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 1
 
+# Camera
+SOONG_CONFIG_NAMESPACES += samsungCameraVars
+SOONG_CONFIG_samsungCameraVars += needs_sec_function1
+SOONG_CONFIG_samsungCameraVars_needs_sec_function1 := true
+
 # AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
