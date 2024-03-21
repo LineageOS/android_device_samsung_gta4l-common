@@ -336,7 +336,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     WifiOverlay \
-    android.hardware.wifi@1.0-service.legacy \
+    android.hardware.wifi@1.0-service \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
