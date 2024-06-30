@@ -4,7 +4,6 @@
 # 32bit libmmcamera_faceproc is unable to resolved the following symbols:
 # __aeabi_memcpy@LIBC_PRIVATE, __aeabi_memset@LIBC_PRIVATE, __gnu_Unwind_Find_exidx@LIBC_PRIVATE
 # lowi-server depend on libwpa_client, which is a gnu makefile target
-# android.hardware.health@2.0-impl-2.1-samsung.so has been patched to use libutils-v30.so
 # libgui_vendor.so has been patched to use libui-v30.so
 
 # ADSP
@@ -385,13 +384,6 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
-# Device Health
-vendor/bin/hw/android.hardware.health@2.1-service-samsung
-vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
--vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so;DISABLE_CHECKELF|987295a93997bebf9fa24c6ba1b1a90d14b12ca4
-vendor/lib64/vendor.samsung.hardware.health@2.0.so
-
 # Display (HDR)
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
@@ -764,24 +756,6 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
-
-# Power-off charging
-system/bin/lpm
-system/lib64/libmaet.so
-system/lib64/libsxqk_skia.so
-system/media/battery_error.spi
-system/media/battery_low.spi
-system/media/battery_temperature_error.spi
-system/media/battery_temperature_limit.spi
-system/media/battery_water_usb.spi
-system/media/dock_error_usb.spi
-system/media/incomplete_connect.spi
-system/media/lcd_density.txt
-system/media/percentage.spi
-system/media/safety_timer_usb.spi
-system/media/slow_charging_usb.spi
-system/media/temperature_limit_usb.spi
-system/media/water_protection_usb.spi
 
 # Power-off alarm - from FxTec Pro1-X (RKQ1.211130.001)
 system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|87c6115c26843a25460fda0bd76def33d5d48d7a
