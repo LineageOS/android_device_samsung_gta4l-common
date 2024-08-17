@@ -88,31 +88,13 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml
 
-# Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor \
-    vendor.qti.hardware.bluetooth_audio@2.1.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor
-
-PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.0.vendor \
-    android.hardware.media.c2@1.1.vendor \
     libavservices_minijail_vendor
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.frameworks.cameraservice.common@2.0.vendor \
-    android.frameworks.cameraservice.device@2.0.vendor \
-    android.frameworks.cameraservice.service@2.1.vendor \
     android.hardware.camera.provider@2.5-legacy.samsung \
-    android.hardware.camera.provider@2.5-service_64.samsung \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor
-
-PRODUCT_PACKAGES += \
-    libexif.vendor:64 \
-    libjpeg.vendor:64
+    android.hardware.camera.provider@2.5-service_64.samsung
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -146,31 +128,19 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.common-V1-ndk_platform.vendor \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     gralloc.bengal \
-    libdisplayconfig.qti \
-    libdisplayconfig.system.qti \
-    libqdMetaData \
-    libqdMetaData.system \
     memtrack.bengal \
-    vendor.display.config@1.0.vendor \
-    vendor.display.config@2.0 \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.mapper@1.0.vendor \
-    vendor.qti.hardware.display.mapper@1.1.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
     libsdedrm
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.3.vendor \
-    libcrypto_shim
+    android.hardware.drm-service.clearkey
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -189,32 +159,20 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl:64 \
     android.hardware.gatekeeper@1.0-service
 
-# GPS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss.measurement_corrections@1.1.vendor \
-    android.hardware.gnss.visibility_control@1.0.vendor \
-    android.hardware.gnss@2.1.vendor
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung \
-    android.hardware.health-service.samsung-recovery \
-    android.hardware.health@2.1.vendor
+    android.hardware.health-service.samsung-recovery
 
 # HIDL
 PRODUCT_PACKAGES += \
-    android.hidl.allocator@1.0.vendor \
     android.hidl.base@1.0 \
-    android.hidl.memory@1.0.vendor \
     libhidltransport \
-    libhidltransport.vendor \
-    libhwbinder \
-    libhwbinder.vendor
+    libhwbinder
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0-service.samsung \
-    libkeymaster4_1support.vendor:64
+    android.hardware.keymaster@4.0-service.samsung
 
 # Lineage Health
 PRODUCT_PACKAGES += \
@@ -236,8 +194,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libavservices_minijail \
-    libavservices_minijail.vendor \
     libc2dcolorconvert \
     libstagefrighthw
 
@@ -279,29 +235,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
-    android.hardware.power@1.2.vendor \
-    vendor.qti.hardware.perf@2.0.vendor \
-    vendor.qti.hardware.perf@2.1.vendor \
-    vendor.qti.hardware.perf@2.2.vendor
-
-# Protobuf
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-3.9.1-vendorcompat \
-    libprotobuf-cpp-lite-3.9.1-vendorcompat
-
-# QCOM
-PRODUCT_PACKAGES += \
-    libcurl.vendor:64 \
-    libjson \
-    libjsoncpp.vendor:64 \
-    libsqlite.vendor:64 \
-    libtinyxml
-
-# QTI
-PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect.vendor \
-    libvndfwk_detect_jni.qti.vendor
+    android.hardware.power-service-qti
 
 # Recovery
 PRODUCT_COPY_FILES += \
@@ -310,10 +244,6 @@ PRODUCT_COPY_FILES += \
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
-
-# Servicetracker
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.1
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -324,17 +254,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/samsung
 
-# Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0.vendor
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.qti
-
-PRODUCT_PACKAGES += \
-    libcrypto-v33 \
-    libui-v30
 
 # WiFi
 PRODUCT_COPY_FILES += \
@@ -346,7 +268,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     WifiOverlay \
     android.hardware.wifi-service \
-    android.hardware.wifi.hostapd@1.0.vendor \
     firmware_WCNSS_qcom_cfg.ini_symlink \
     hostapd \
     libwifi-hal-qcom \
