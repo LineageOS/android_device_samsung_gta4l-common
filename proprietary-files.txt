@@ -1,5 +1,12 @@
 # Common proprietary files - from Samsung package version T505XXS7CXB1, unless pinned
 
+# Current blobs with ELF checks disabled:
+# 32bit libmmcamera_faceproc is unable to resolved the following symbols:
+# __aeabi_memcpy@LIBC_PRIVATE, __aeabi_memset@LIBC_PRIVATE, __gnu_Unwind_Find_exidx@LIBC_PRIVATE
+# lowi-server depend on libwpa_client, which is a gnu makefile target
+# android.hardware.health@2.0-impl-2.1-samsung.so has been patched to use libutils-v30.so
+# libgui_vendor.so has been patched to use libui-v30.so
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-service.rc
@@ -165,7 +172,7 @@ vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libchilog.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libofflinelog.so
 vendor/lib/libswregistrationalgo.so
@@ -344,11 +351,11 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libgui_vendor.so
+vendor/lib64/libgui_vendor.so;DISABLE_CHECKELF
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmmcamera_cac3.so
-vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
@@ -390,7 +397,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
 -vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so;DISABLE_CHECKELF
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 # Display (HDR)
@@ -546,7 +553,8 @@ vendor/lib64/hw/gatekeeper.mdfpp.so
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
-vendor/bin/lowi-server
+# lowi-server depends on libwpa_client, which is a gnu makefile target
+vendor/bin/lowi-server;DISABLE_CHECKELF
 vendor/bin/xtra-daemon
 vendor/etc/flp.conf
 vendor/etc/gnss_antenna_info.conf
