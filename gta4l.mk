@@ -91,6 +91,8 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_vendor
 
 # Camera
+$(call soong_config_set,samsungCameraVars,needs_sec_get_cam_pos_v2,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-legacy.samsung \
     android.hardware.camera.provider@2.5-service_64.samsung
