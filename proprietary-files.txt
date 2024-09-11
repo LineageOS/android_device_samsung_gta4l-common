@@ -115,6 +115,9 @@ vendor/lib64/soundfx/libswdap.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/libbtnv.so
+vendor/lib/libsoc_helper.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 
@@ -167,7 +170,9 @@ vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libofflinelog.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libwingmetamanager.so
+vendor/lib/libxml.so
 vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
+vendor/lib/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib64/camera/com.qti.eeprom.n19_gc8034_back_cxt.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
@@ -359,11 +364,15 @@ vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libwingmetamanager.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|5dfcd423c021b3d9385f47f159e12d6ef6558c28
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
+vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
+vendor/lib/vendor.qti.hardware.servicetracker@1.0.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
+vendor/lib/vendor.qti.hardware.servicetracker@1.1.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
@@ -804,11 +813,13 @@ vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/sec_config
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
+vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
+vendor/lib/libnetmgr.so
 vendor/lib/libmdmdetect.so
 vendor/lib/libminksocket.so
 vendor/lib/libqcci_legacy.so
@@ -998,6 +1009,7 @@ vendor/etc/sensors/proto/sns_ultra_violet.proto
 vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/sensors/sns_reg_config
 vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
+vendor/lib/libsensorcal.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsns_device_mode_stub.so
