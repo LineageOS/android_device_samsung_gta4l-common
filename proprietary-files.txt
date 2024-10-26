@@ -537,7 +537,6 @@ vendor/firmware/novatek_ts_mp_txd_inx.bin
 vendor/firmware/novatek_ts_mp_txd_inx.bin:recovery/root/vendor/firmware/novatek_ts_mp_txd_inx.bin
 
 # Gatekeeper
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/lib64/hw/gatekeeper.mdfpp.so|16f4abe053358a1ac064713ae5f88b8524b06472
 
 # GNSS
