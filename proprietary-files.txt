@@ -370,16 +370,8 @@ vendor/lib64/libqti-iopd.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libwingmetamanager.so
 vendor/lib64/libxml.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|5dfcd423c021b3d9385f47f159e12d6ef6558c28
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
-vendor/lib/vendor.qti.hardware.servicetracker@1.0.so
-vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
-vendor/lib/vendor.qti.hardware.servicetracker@1.1.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 
@@ -408,7 +400,6 @@ vendor/lib64/libhdr_tm.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libdisplayskuutils.so
 vendor/lib/libqseed3.so
-vendor/lib/libsdedrm.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libsdm-disp-vndapis.so
@@ -417,7 +408,6 @@ vendor/lib/libtinyxml2_1.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libqseed3.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
