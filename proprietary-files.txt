@@ -351,7 +351,7 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libgui_vendor.so;DISABLE_CHECKELF
+vendor/lib64/libgui_vendor.so;DISABLE_CHECKELF|4dfbd055f17a9f3147cada32841ccb0e1e507c83
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmmcamera_cac3.so
@@ -389,7 +389,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
 -vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so;DISABLE_CHECKELF
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so;DISABLE_CHECKELF|987295a93997bebf9fa24c6ba1b1a90d14b12ca4
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 # Display (HDR)
@@ -538,7 +538,7 @@ vendor/firmware/novatek_ts_mp_txd_inx.bin:recovery/root/vendor/firmware/novatek_
 
 # Gatekeeper
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib64/hw/gatekeeper.mdfpp.so
+vendor/lib64/hw/gatekeeper.mdfpp.so|16f4abe053358a1ac064713ae5f88b8524b06472
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
@@ -694,7 +694,7 @@ vendor/lib64/libgrdm.so
 vendor/lib64/libkeymaster_helper.so|f2636940c2a6ba82db372374cf3ee948ef294b25
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
-vendor/lib64/libskeymaster4device.so
+vendor/lib64/libskeymaster4device.so|83b0f8c6c6f2e4d86b9843c895404bddc8f27fff
 
 # Machine Learning
 vendor/etc/lm/AdaptLaunchFeature.xml
