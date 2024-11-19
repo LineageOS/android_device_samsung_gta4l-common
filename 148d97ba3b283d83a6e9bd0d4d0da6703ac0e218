@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07a49ea0_d97d256e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2024-11-19T21:18:42Z",
+      "side": 1,
+      "message": "Had to keep 1:\n\n11-19 22:09:52.125   859   859 E CamX    : [ERROR][UTILS  ] camxosutilslinux.cpp:979 LibMap() dlopen: dlopen failed: library \"android.hardware.graphics.common-V1-ndk_platform.so\" not found: needed by /vendor/lib64/libui-v30.so in namespace (default), on \u0027/vendor/lib64/camera/components/com.morpho.node.videorefiner.so\u0027",
+      "revId": "148d97ba3b283d83a6e9bd0d4d0da6703ac0e218",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

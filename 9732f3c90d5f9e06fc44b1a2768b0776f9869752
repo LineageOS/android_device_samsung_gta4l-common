@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbc05565_f4ee52e9",
+        "filename": "gta4l.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2024-11-19T21:18:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c301e603_2666a663",
+      "revId": "9732f3c90d5f9e06fc44b1a2768b0776f9869752",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "edcc985a_a8a90cd7",
@@ -31,6 +49,30 @@
       "writtenOn": "2024-11-19T07:41:44Z",
       "side": 1,
       "message": "i\u0027d also try with all of these removed.",
+      "range": {
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 15
+      },
+      "revId": "9732f3c90d5f9e06fc44b1a2768b0776f9869752",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5567d82_2445dc31",
+        "filename": "gta4l.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2024-11-19T21:18:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "edcc985a_a8a90cd7",
       "range": {
         "startLine": 167,
         "startChar": 0,
