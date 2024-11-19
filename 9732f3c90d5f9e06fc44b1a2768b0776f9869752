@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edcc985a_a8a90cd7",
+        "filename": "gta4l.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-19T07:41:44Z",
+      "side": 1,
+      "message": "i\u0027d also try with all of these removed.",
+      "range": {
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 15
+      },
+      "revId": "9732f3c90d5f9e06fc44b1a2768b0776f9869752",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
