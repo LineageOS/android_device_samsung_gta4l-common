@@ -34,6 +34,24 @@
       "parentUuid": "07a49ea0_d97d256e",
       "revId": "148d97ba3b283d83a6e9bd0d4d0da6703ac0e218",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2545858b_66e20b3a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2024-11-19T21:32:13Z",
+      "side": 1,
+      "message": "11-19 22:30:52.810   861   861 E CamX    : [ERROR][UTILS  ] camxosutilslinux.cpp:979 LibMap() dlopen: dlopen failed: cannot locate symbol \"_ZN7android2ui4Size7INVALIDE\" referenced by \"/vendor/lib64/libgui_vendor.so\"..., on \u0027/vendor/lib64/camera/components/com.morpho.node.videorefiner.so\u0027",
+      "parentUuid": "9b4c736f_c1e78272",
+      "revId": "148d97ba3b283d83a6e9bd0d4d0da6703ac0e218",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
