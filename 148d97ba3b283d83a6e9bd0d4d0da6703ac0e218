@@ -124,6 +124,24 @@
       "parentUuid": "a9bf85cb_d887b6ed",
       "revId": "148d97ba3b283d83a6e9bd0d4d0da6703ac0e218",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "994636a9_88a41ce5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-19T23:14:30Z",
+      "side": 1,
+      "message": "umm, libgui_vendor is buildable from source, no? why is it blobbed here?",
+      "parentUuid": "99599ed7_1a560995",
+      "revId": "148d97ba3b283d83a6e9bd0d4d0da6703ac0e218",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
