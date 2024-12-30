@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
     init.qcom.post_boot.sh \
     init.qcom.rc \
+    init.qcom.recovery.rc \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.rc \
@@ -223,10 +224,6 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
-
-# Recovery
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc
 
 # Seccomp
 PRODUCT_COPY_FILES += \
