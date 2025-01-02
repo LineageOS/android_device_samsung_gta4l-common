@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46abd0ee_080c3d48",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-01-02T14:54:13Z",
+      "side": 1,
+      "message": "somehow need TARGET_USES_GRALLOC4 :\u003d true to boot",
+      "revId": "1b672d653c4ba8d86531176cd86bb50db1d86104",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
