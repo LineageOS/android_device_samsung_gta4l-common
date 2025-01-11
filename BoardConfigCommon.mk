@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2023 The LineageOS Project
+# Copyright (C) 2019-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -193,7 +193,7 @@ BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
 TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := ROTATION_RIGHT
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.emmc
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/init/fstab.emmc
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_F2FS := true
 
