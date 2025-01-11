@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2023 The LineageOS Project
+# Copyright (C) 2019-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -103,6 +103,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.default \
     fstab.emmc \
+    fstab.emmc.ramdisk \
     fstab.firmware \
     fstab.ramplus \
     init.qcom.early_boot.sh \
