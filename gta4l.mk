@@ -264,6 +264,5 @@ PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink \
     hostapd \
     libwifi-hal-qcom \
-    libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
