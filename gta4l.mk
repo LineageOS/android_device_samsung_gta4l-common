@@ -163,6 +163,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung
 
+$(call soong_config_set,samsungVars,target_keymaster4_library,//vendor/samsung/gta4l-common:libskeymaster4device)
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default

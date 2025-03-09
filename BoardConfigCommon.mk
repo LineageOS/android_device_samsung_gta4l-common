@@ -107,9 +107,6 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := DTC=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/samsung/sm6115
 
-# Keymaster
-TARGET_KEYMASTER_VARIANT := samsung
-
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/batt_slate_mode
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
