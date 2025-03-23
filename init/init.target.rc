@@ -26,6 +26,7 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 #
+import /vendor/etc/init/hw/init.ramplus.rc
 import /vendor/etc/init/hw/init.samsung.rc
 import /vendor/etc/init/hw/init.${ro.product.device}.rc
 
