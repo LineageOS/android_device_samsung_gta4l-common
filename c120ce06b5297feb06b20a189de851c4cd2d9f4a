@@ -16,6 +16,23 @@
       "message": "why did you move it too init/hw?",
       "revId": "c120ce06b5297feb06b20a189de851c4cd2d9f4a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cde9427d_a45ae316",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-03-25T22:22:14Z",
+      "side": 1,
+      "message": "thought it would be easier if all .rc files are in the same folder",
+      "revId": "c120ce06b5297feb06b20a189de851c4cd2d9f4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
