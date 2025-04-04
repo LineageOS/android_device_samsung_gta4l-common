@@ -45,7 +45,6 @@ int main(void) {
     ASensorRef hallSensor;
     ALooper *looper;
     ASensorEventQueue *eventQueue = nullptr;
-    int32_t hallMinDelay = 0;
     time_t lastWarn = 0;
     int attemptCount = 0;
 
@@ -108,7 +107,6 @@ int main(void) {
                                                        SENSOR_TYPE,
                                                        true);
         if (hallSensor != nullptr) {
-            hallMinDelay = ASensor_getMinDelay(hallSensor);
             break;
         }
 
@@ -124,7 +122,7 @@ int main(void) {
     }
 
     err = ASensorEventQueue_registerSensor(eventQueue, hallSensor,
-                                           hallMinDelay, 10000);
+                                           0, 0);
     if (err < 0) {
         ALOGE("Unable to register for Hall-effect sensor events");
         goto out;
