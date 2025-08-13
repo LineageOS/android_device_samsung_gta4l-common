@@ -1,6 +1,5 @@
 mdc.                                    u:object_r:csc_prop:s0
 persist.vendor.morpho.eis.quit.recovery u:object_r:cam_prop:s0
-persist.vendor.sec.fastchg_enabled      u:object_r:sec_fastcharge_prop:s0
 ro.csc.                                 u:object_r:csc_prop:s0
 ro.factory.factory_binary               u:object_r:vendor_factory_prop:s0
 ro.multisim.                            u:object_r:vendor_radio_prop:s0
