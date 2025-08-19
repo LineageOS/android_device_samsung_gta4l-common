@@ -112,6 +112,8 @@ on init
     chmod 0200 /proc/rdx_bootdev
     # CONFIG_SEC_DEBUG --
 
+    chown system radio /sys/class/sec/switch/afc_disable
+
 on late-init
 
 on post-fs
