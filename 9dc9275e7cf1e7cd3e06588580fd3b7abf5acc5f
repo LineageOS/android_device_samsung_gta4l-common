@@ -16,6 +16,24 @@
       "message": "add \\n before eol.",
       "revId": "9dc9275e7cf1e7cd3e06588580fd3b7abf5acc5f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efffbe76_3fde3426",
+        "filename": "sepolicy/vendor/hal_lineage_health_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-08-31T15:43:41Z",
+      "side": 1,
+      "message": "*eof",
+      "parentUuid": "39666010_a64f8075",
+      "revId": "9dc9275e7cf1e7cd3e06588580fd3b7abf5acc5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
