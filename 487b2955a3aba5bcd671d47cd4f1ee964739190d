@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b34055d4_d9000c99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-31T14:34:41Z",
+      "side": 1,
+      "message": "Why don\u0027t you merge these two changes into 22.2 and then fast-forward?",
+      "revId": "487b2955a3aba5bcd671d47cd4f1ee964739190d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
