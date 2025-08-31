@@ -34,6 +34,24 @@
       "parentUuid": "bcc5992e_0d49b286",
       "revId": "dbf8e62fb27b55660b7cff4c538252c6b24f3b40",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fd4750e_7e797d40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-31T15:13:03Z",
+      "side": 1,
+      "message": "HEAD, being the current HEAD of lineage-22.2, ofc.",
+      "parentUuid": "c161d1ef_8f19fd56",
+      "revId": "dbf8e62fb27b55660b7cff4c538252c6b24f3b40",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
