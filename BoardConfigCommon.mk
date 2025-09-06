@@ -165,9 +165,6 @@ TARGET_MODULE_ALIASES += \
     wsa881x_analog_dlkm.ko:audio_wsa881x_analog.ko \
     wlan.ko:qca_cld3_wlan.ko
 
-# Power
-TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
-
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
