@@ -361,7 +361,6 @@ vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libwingmetamanager.so
