@@ -16,6 +16,24 @@
       "message": "You should remove these, tho. It doesn\u0027t make sense if the original blob is extracted from stock.",
       "revId": "8ad19fddc3819fd6643e50b5e31e85f9a5c47fb6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16260948_0283d9ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-12-02T20:59:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b04a5916_4e959162",
+      "revId": "8ad19fddc3819fd6643e50b5e31e85f9a5c47fb6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
