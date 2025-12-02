@@ -432,8 +432,8 @@ vendor/lib/libcpion.so
 vendor/lib/libhdcpsrm.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libtrustedapploader.so
-vendor/lib/libwvhidl.so|55d9f33a55a8d52c596a961a49bf6b7fbbe16d8f
-vendor/lib/mediadrm/libwvdrmengine.so|f3bf43a207271fe6fdac80ee7f55dc9c1af88dbf
+vendor/lib/libwvhidl.so|0cae7904d664b7219e94aff496dcd94b83235fb4
+vendor/lib/mediadrm/libwvdrmengine.so|8e422b0cb481935e86f6f5491c5f51d288d2068b
 
 # DSP
 vendor/bin/cdsprpcd
@@ -525,7 +525,7 @@ vendor/firmware/novatek_ts_mp_txd_inx.bin
 vendor/firmware/novatek_ts_mp_txd_inx.bin:recovery/root/vendor/firmware/novatek_ts_mp_txd_inx.bin
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so|16f4abe053358a1ac064713ae5f88b8524b06472
+vendor/lib64/hw/gatekeeper.mdfpp.so|dfdcb0f4f2c9eb1b089fecd1f411a238375b5040
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
@@ -677,10 +677,10 @@ vendor/etc/msm_irqbalance.conf
 
 # Keymaster
 vendor/lib64/libgrdm.so
-vendor/lib64/libkeymaster_helper.so|f2636940c2a6ba82db372374cf3ee948ef294b25
+vendor/lib64/libkeymaster_helper.so|32fb28fdd84e5153b4b714ba3af395af6f591a16
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
-vendor/lib64/libskeymaster4device.so|83b0f8c6c6f2e4d86b9843c895404bddc8f27fff
+vendor/lib64/libskeymaster4device.so|1a49f153702b7cbbe9f009e68b62b0f5d92488e5
 
 # Machine Learning
 vendor/etc/lm/AdaptLaunchFeature.xml
