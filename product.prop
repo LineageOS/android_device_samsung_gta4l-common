@@ -13,7 +13,6 @@ aaudio.mmap_exclusive_policy=2
 aaudio.hw_burst_min_usec=2000
 restore.feature.use_samsung_smart_switch_flow=1
 setupwizard.feature.enable_stencil_partner_customization=1
-ro.com.google.clientidbase=android-samsung-ss
 ro.setupwizard.rotation_locked=false
 ro.setupwizard.wifi_on_exit=false
 ro.setupwizard.mode=OPTIONAL
